@@ -13,7 +13,7 @@ This is a simple search engine implementation using Python and Flask. The search
 
 ## Overview
 
-The Simple Search Engine is a lightweight web application that allows users to search for indexed content from a set of predefined web pages. It uses a Trie data structure for efficient indexing and searching. Data used for this project is shown in urls.txt.
+This Search Engine is a lightweight web application that allows users to search for indexed content from a set of predefined web pages. It uses a Trie data structure for efficient indexing and searching. Data used for this project is shown in urls.txt.
 
 ## Features
 
