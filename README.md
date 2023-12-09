@@ -9,6 +9,7 @@ This is a simple search engine implementation using Python and Flask. The search
 - [Installation](#installation)
 - [Usage](#usage)
 - [Algorithms and Data Structure](#algorithms-and-data-structure)
+- [Testing](#testing)
 - [Dependencies](#dependencies)
 
 ## Overview
@@ -56,7 +57,8 @@ The search engine employs the following algorithms and data structures:
 
 - **Depth-First Search (DFS):** Implemented during the Trie search operation to traverse the Trie and find URLs that match the user's query.
 
-## Test
+## Testing
+
 Use following six methods to test the boundary conditions.
 1. Empty Trie: Create an empty Trie and verify that attempting to search for any query results in an empty set.
 2. Single Character Insertion: Insert a single-character word into the Trie and ensure that searching for that character returns the correct URL (if it was indexed).
