@@ -10,8 +10,6 @@ This is a simple search engine implementation using Python and Flask. The search
 - [Usage](#usage)
 - [Algorithms and Data Structure](#algorithms-and-data-structure)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
