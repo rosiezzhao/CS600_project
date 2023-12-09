@@ -43,7 +43,7 @@ Use following six methods to test the boundary conditions.
 
 ## Prerequisites
 
-Python3
-Flask
-Requests
-BeautifulSoup4
+- Python3
+- Flask
+- Requests
+- BeautifulSoup4
