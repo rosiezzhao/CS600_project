@@ -6,7 +6,6 @@ This is a simple search engine implementation using Python and Flask. The search
 
 - [Overview](#overview)
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Algorithms and Data Structure](#algorithms-and-data-structure)
 - [Testing](#testing)
@@ -14,28 +13,13 @@ This is a simple search engine implementation using Python and Flask. The search
 
 ## Overview
 
-The Simple Search Engine is a lightweight web application that allows users to search for indexed content from a set of predefined web pages. It uses a Trie data structure for efficient indexing and searching.
+The Simple Search Engine is a lightweight web application that allows users to search for indexed content from a set of predefined web pages. It uses a Trie data structure for efficient indexing and searching. Data used for this project is shown in urls.txt.
 
 ## Features
 
 - Indexing of web pages using a Trie data structure.
 - Search functionality that retrieves relevant results based on user queries.
 - Basic web interface for interacting with the search engine.
-
-## Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/rosiezzhao/search-engine.git
-    cd search-engine
-    ```
-
-2. Install dependencies:
-
-    ```bash
-    pip install flask requests beautifulsoup4
-    ```
 
 ## Usage
 
@@ -53,7 +37,7 @@ The Simple Search Engine is a lightweight web application that allows users to s
 
 The search engine employs the following algorithms and data structures:
 
-- **Trie (Prefix Tree):** Used for indexing words from the web page content. This allows for efficient storage and retrieval of URLs associated with specific words.
+- **Trie:** Used for indexing words from the web page content. This allows for efficient storage and retrieval of URLs associated with specific words.
 
 - **Depth-First Search (DFS):** Implemented during the Trie search operation to traverse the Trie and find URLs that match the user's query.
 
