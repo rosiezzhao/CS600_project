@@ -14,7 +14,9 @@ class Trie:
         for char in word:
             node = node.children.setdefault(char, TrieNode())
         node.is_end_of_word = True
-        node.urls.add(url)
+        # Only add the URL if it's not already present
+        if url not in node.urls:
+            node.urls.add(url)
 
     def search(self, query):
         node = self.root
